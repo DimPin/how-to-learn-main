@@ -42,6 +42,7 @@
 
 .header__subtitle {
   position: absolute;
+  margin: 0;
   left: 64px;
   bottom: 30px;
   width: 388px;
@@ -92,6 +93,7 @@
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  margin: 0;
 }
 
 .two-columns__main-text {
@@ -103,6 +105,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__paragraph:nth-child(2n) {
+  margin: 30px 0;
 }
 
 .two-columns__span-accent {
@@ -150,10 +157,11 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: 600;
+  margin: 0;
 }
 
 .table__text {
-  margin-top: 20px;
+  margin: 20px 0 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
