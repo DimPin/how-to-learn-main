@@ -262,6 +262,7 @@
 }
 
 .footer__column_content_copyright {
+  position: relative;
   flex-basis: 711px;
   justify-content: space-between;
 }
@@ -275,8 +276,9 @@
 }
 
 .logo_place_footer {
-  width: 228px;
-  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .footer__author {
